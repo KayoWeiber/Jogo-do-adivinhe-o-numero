@@ -37,6 +37,7 @@ form input:focus{
 }
 form button{
     border: none;
+    border-radius: 10px;
     background-color: var(--primary-color);
     color: #fff;
     font-size: 18px;
@@ -45,8 +46,41 @@ form button{
     cursor: pointer;
     margin-top: 30px;
 }
-form button:hover{
+.buttonReturn{
+    border: none;
+    border-radius: 50px;
+    background-color: red;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    height: 40px;
+    width: 150px;
+    cursor: pointer;
+    margin-top: 2px;
+    margin-left: 450px;
+    text-align: center;
+    
+
+}
+form button:hover,.buttonDica:hover{
     background-color: var(--primary-color-dark);
+}
+.buttonReturn:hover{
+    background-color: rgb(87, 5, 5);
+}
+.buttonDica{
+    border: none;
+    border-radius: 50px;
+    background-color: var(--primary-color);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    height: 40px;
+    width: 150px;
+    cursor: pointer;
+    margin-top: 2px;
+    margin-left: 450px;
+    text-align: center;   
 }
 form h1{
     text-align: center;
