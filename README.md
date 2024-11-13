@@ -28,6 +28,10 @@ O **Jogo de Adivinhação de Número** permite ao usuário tentar adivinhar um n
 3. Se estiver com dificuldades, clique no botão de "Dica" para obter uma ajuda extra (dicas limitadas a três).
 4. A qualquer momento, você pode reiniciar o jogo clicando no botão "Reiniciar".
 
+## Jogue Online
+
+Você pode jogar o jogo online através do link: [Jogo de Adivinhação de Número](https://kayoweiber.github.io/Jogo-do-adivinhe-o-numero/)
+
 ## Objetivo do Projeto
 
 Este projeto tem como foco principal reforçar meus conhecimentos em **JavaScript** e **manipulação de DOM**, criando interações dinâmicas na página. Além disso, visa me ajudar a entender e aplicar a lógica de verificação e validação de entrada no desenvolvimento de interfaces interativas.
