@@ -59,8 +59,8 @@ function iniciar(){
                     e.preventDefault()
                     dicas(dicaQuan,num,resp)
                     dicaQuan-=1
+                    if (dicaQuan <= 0){buttonDica.remove()}
                     buttonDica.innerText=`Dica (${dicaQuan})`
-                    if (dicaQuan === 0) buttonDica.remove();
                 
 
                 })
