@@ -46,7 +46,7 @@ form button{
     cursor: pointer;
     margin-top: 30px;
 }
-.buttonReturn{
+.buttonReturn {
     border: none;
     border-radius: 50px;
     background-color: red;
@@ -54,14 +54,12 @@ form button{
     font-size: 18px;
     font-weight: 700;
     height: 40px;
-    width: 150px;
+    width: 100%;       
+    max-width: 150px;  
     cursor: pointer;
-    margin-top: 2px;
-    margin-left: 450px;
+    margin-top: 10px;
     text-align: center;
-    display: block;
-    
-
+    align-self: center; 
 }
 form button:hover,.buttonDica:hover{
     background-color: var(--primary-color-dark);
@@ -69,19 +67,19 @@ form button:hover,.buttonDica:hover{
 .buttonReturn:hover{
     background-color: rgb(87, 5, 5);
 }
-.buttonDica{
+.buttonDica {
     border: none;
     border-radius: 50px;
-    background-color: var(--primary-color);
-    color: #fff;
+    background-color: var(--primary-color); 
     font-size: 18px;
     font-weight: 700;
     height: 40px;
-    width: 150px;
+    width: 100%;       
+    max-width: 150px;  
     cursor: pointer;
-    margin-top: 2px;
-    margin-left: 450px;
-    text-align: center;   
+    margin-top: 10px;
+    text-align: center;
+    align-self: center; 
 }
 form h1{
     text-align: center;
